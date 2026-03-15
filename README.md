@@ -8,31 +8,32 @@ I build backend systems, APIs, and full-stack applications. Currently focused on
 
 ```
 Languages:     Go · Python · JavaScript · SQL · Bash
-Backend:       Gin · GORM · REST APIs · Colly · Web Scraping
-Frontend:      React · HTML/CSS · Responsive UI
-Databases:     SQLite · PostgreSQL · Schema Design · Migrations
-DevOps:        Linux · Git · Docker · CI/CD · Server Administration
-Patterns:      Concurrency (goroutines, fan-out) · ELO/ranking algorithms · Fuzzy matching
+Backend:       Gin · GORM · REST APIs · Web Crawling · Task Scheduling
+Frontend:      React · Next.js · HTML/CSS · Chart.js
+Databases:     SQLite · MongoDB · PostgreSQL · Schema Design
+DevOps:        Linux · Git · Systemd · Server Administration
+Patterns:      Concurrency (goroutines) · ELO/ranking algorithms · Fuzzy matching
 ```
 
 ## 🚀 Featured Project
 
-### [Joshi Rankings API](https://github.com/dashy-jngl/joshi-rankings-api)
-Full-stack **Go REST API** calculating ELO-based power rankings for professional wrestling.
+### [Joshitori](https://joshitori.com) — Power Rankings for Joshi Pro Wrestling
+Full-stack **Go** system tracking **3,800+ wrestlers** across **250k+ matches** with dynamic ELO ratings.
 
-- ⚡ Concurrent web scraping with goroutines (fan-out pattern)
-- 🧠 ELO rating algorithm with title match multipliers
+- ⚡ Automated web crawler with rate limiting, dedup, and scheduled cron jobs
+- 🧠 Custom ELO system — asymmetric K-factor, tier rankings, match predictions
 - 🔍 Fuzzy Japanese ↔ English name matching with alias support
-- 🎯 Match prediction engine + network visualization
-- 🔒 Auth, CSRF, rate limiting, CORS middleware
-- 📊 20,000+ lines of Go across 80 files
+- 📊 Interactive frontend — wrestler profiles, ELO charts, head-to-head, network graphs
+- 🔒 Session auth, CSRF protection, role-based admin panel
 
-**Stack:** Go · Gin · GORM · Colly · SQLite
+**Stack:** Go · Gin · GORM · SQLite · Chart.js · Hetzner
+
+**Live:** [joshitori.com](https://joshitori.com)
 
 ## 💼 Professional Background
 
 - **3+ years** building production software systems
-- Architected a **full-scale ERP system** (Python/React) for a manufacturing company — inventory, orders, production scheduling, real-time barcode tracking
+- Architected a **full-scale ERP system** (Python/React/MongoDB) for a manufacturing company — inventory, orders, production scheduling, real-time barcode tracking
 - **PhilNITS certified** (aligned with Japan's ITEE standards)
 - Experience with database design, process automation, and technical team leadership
 
@@ -44,15 +45,3 @@ Backend or full-stack engineering roles in **Japan** (Tokyo preferred). Open to 
 
 - **Email:** hash.chisako@gmail.com
 - **Location:** Australia → Tokyo
-
----
-
-<!-- 
-Keywords for AI/ATS parsing:
-software engineer, backend developer, full-stack developer, Go developer, Golang, Python developer,
-REST API, microservices, database design, PostgreSQL, SQLite, concurrent programming, goroutines,
-web scraping, ELO algorithm, ranking system, manufacturing ERP, production systems,
-Linux system administration, DevOps, Docker, CI/CD, Git,
-PhilNITS, ITEE, Japan, Tokyo, visa sponsorship, English-speaking engineer,
-React, JavaScript, TypeScript, HTML, CSS, SQL, Bash scripting
--->
